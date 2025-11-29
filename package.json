@@ -1,0 +1,26 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "description": "[![Actions Status](https://github.com/MMagomedov284/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MMagomedov284/frontend-project-44/actions)",
+  "homepage": "https://github.com/MMagomedov284/frontend-project-44#readme",
+  "bugs": {
+    "url": "https://github.com/MMagomedov284/frontend-project-44/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMagomedov284/frontend-project-44.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "bin/brain-games.js",
+  "scripts": {
+    "install": "npm ci",
+    "publish": "npm publish --dry-run",
+    "brain-games": "node bin/brain-games.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
