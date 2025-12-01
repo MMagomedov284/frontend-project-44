@@ -17,10 +17,7 @@
   "author": "",
   "type": "module",
   "main": "bin/brain-games.js",
-  "scripts": {
-    "install": "npm ci",
-    "publish": "npm publish --dry-run",
-    "brain-games": "node bin/brain-games.js",
+  "scripts": { 
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
