@@ -2,7 +2,8 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "description": "[![Actions Status](https://github.com/MMagomedov284/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MMagomedov284/frontend-project-44/actions)",
   "homepage": "https://github.com/MMagomedov284/frontend-project-44#readme",
@@ -17,7 +18,15 @@
   "author": "",
   "type": "module",
   "main": "bin/brain-games.js",
-  "scripts": { 
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0"
   }
 }
