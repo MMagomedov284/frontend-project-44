@@ -5,6 +5,7 @@ import { checkAnsver, userAnsver, rundomNumbers, greetingsUser,nodAlgorithm } fr
 const brainGcd = () => {
 
     let userName = greetingsUser()
+    console.log("Find the greatest common divisor of given numbers.")
     for (let vinePoints = 0; vinePoints < 3; vinePoints++) {
         //создаем 2 рандомных числа 
         const num1 = rundomNumbers(80);
@@ -21,12 +22,11 @@ const brainGcd = () => {
         //сравниваем ответы
         let correct = checkAnsver(Ansver,correctAnsver,userName);
 
-        if (correct === false) {
+        if (correct === false){
             break
-        }
-        
+        }        
         if (vinePoints === 2) {
-            console.log(`поздравляю, ${userName}!`);
+            console.log(`Congratulations, ${userName}!`);
         }
 
     }

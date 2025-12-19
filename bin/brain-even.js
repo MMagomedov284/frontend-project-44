@@ -5,7 +5,7 @@ const playEvenbrain = () => {
 
     //узнаем имя пользователя
     let userName = greetingsUser()
-    console.log('Ответьте «да», если число четное, в противном случае ответьте «нет».')
+    console.log('Answer "yes" if the number is even, otherwise answer "no"')
 
     for (let vinePoints = 0; vinePoints < 3; vinePoints++) { 
 
@@ -16,7 +16,7 @@ const playEvenbrain = () => {
         const answer = userAnsver(number)
 
         //проверка целое число или нет
-        const correctAnsver = number % 2 === 0 ? "да": "нет"
+        const correctAnsver = number % 2 === 0 ? "yes": "no"
 
         //сравниваем нашу проверку и ответ пользователя
         let correct = checkAnsver(answer,correctAnsver,userName);
@@ -26,7 +26,7 @@ const playEvenbrain = () => {
         }
         
         if (vinePoints === 2) {
-            console.log(`поздравляю, ${userName}!`);
+            console.log(`Congratulations, ${userName}!`);
         }
     }
 }

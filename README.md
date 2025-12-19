@@ -3,3 +3,4 @@
 1. Asciinema "brain-even" - "https://asciinema.org/a/IPPWUXVU5j1Tu3eFeU8UImCVI"
 2. Asciinema "brain-calc" - https://asciinema.org/a/CvK9lRJworMtkSmSzgeIRm2yK
 3. Asciinema "brain-gcd" - https://asciinema.org/a/vefeY3pHrQybranM16dVCkqIf
+4. Asciinema "brain-progression" - https://asciinema.org/a/FuhLZLVs9X9hkicF0t030k8JH

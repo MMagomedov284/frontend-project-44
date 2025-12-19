@@ -6,6 +6,7 @@ const playCalculatorBrain = () => {
     console.log("brain-calc")
 
     let userName = greetingsUser()
+    console.log("What is the result of the expression?")
 
     for (let vinePoints = 0; vinePoints < 3; vinePoints++) {
         //создаем 2 рандомных числа 
@@ -48,7 +49,7 @@ const playCalculatorBrain = () => {
         }
         
         if (vinePoints === 2) {
-            console.log(`поздравляю, ${userName}!`);
+            console.log(`Congratulations, ${userName}!`);
         }
 
     }
