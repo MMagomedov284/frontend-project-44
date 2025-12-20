@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-import { checkAnsver, userAnsver, rundomNumbers, greetingsUser } from "../src/index.js";
+
+import { greetingsUser, userAnsver } from "../src/cli.js";
+import { checkAnsver, rundomNumbers } from "../src/index.js";
 
 const playEvenbrain = () => {
 

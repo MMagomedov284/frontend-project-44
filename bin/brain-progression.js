@@ -1,10 +1,12 @@
 #!/usr/bin/env node
-import { checkAnsver, userAnsver, rundomNumbers, greetingsUser, generateProgression } from "../src/index.js";
+
+import { greetingsUser, userAnsver } from "../src/cli.js";
+import { generateProgression } from "../src/games/progression.js";
+import { checkAnsver, rundomNumbers } from "../src/index.js";
 
 const brainProgression = () => {
 
-    let userName = greetingsUser();
-    console.log("What number is missing in the progression?")
+    let userName = greetingsUser("What number is missing in the progression?");
 
     for (let vinePoints = 0; vinePoints < 3; vinePoints++) {
 

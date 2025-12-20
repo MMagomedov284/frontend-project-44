@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import { checkAnsver, userAnsver, rundomNumbers, greetingsUser } from "../src/index.js";
+import { greetingsUser, userAnsver } from "../src/cli.js";
+import { checkAnsver, rundomNumbers } from "../src/index.js";
 
 const playCalculatorBrain = () => {
     console.log("brain-calc")
@@ -17,7 +18,7 @@ const playCalculatorBrain = () => {
         const operations = ["-", "+", "*"]
 
         //создаем генератор рандомного выражения из масива 
-        const randomIndex = Math.floor(Math.random() * operations.length);
+        const randomIndex = rundomNumbers(operations.length);
         const randomOperation = operations[randomIndex]
 
         //спрашиваем у пользователя ответ на операцию
@@ -25,7 +26,6 @@ const playCalculatorBrain = () => {
         const Ansver = Number(userAnsver(expression));
 
         //вычисляем правильный ответ
-
         let correctAnsver = 0
         switch (randomOperation) {
             case "-":
