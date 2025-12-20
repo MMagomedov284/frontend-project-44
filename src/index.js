@@ -46,6 +46,7 @@ const nodAlgorithm = (num1, num2) =>{
     return num1;
 }
 
+// создание арифметического выражения 
 const generateProgression = (start, diff, maxLength, hidenindex) => {
     const result = [];
 
@@ -59,6 +60,24 @@ const generateProgression = (start, diff, maxLength, hidenindex) => {
     return result
 }
 
+// проверка простое число или нет
+const primeCheaker = (number) => {
+    const squareRoot = Math.floor(Math.sqrt(number))
+    if (number < 2) {
+        return "no"
+    } else if (number === 2) {
+        return "yes"
+    } else if (number % 2 === 0) {
+        return "no"
+    }
+
+    for(let i = 2; i <= squareRoot; i++){
+        if (number % i === 0) {
+            return "no"
+        }
+    }
+    return "yes"
+}   
 
 // currentElement = start + index * step
-export {checkAnsver, userAnsver, rundomNumbers, greetingsUser, nodAlgorithm, generateProgression,};
+export {checkAnsver, userAnsver, rundomNumbers, greetingsUser, nodAlgorithm, generateProgression,primeCheaker};
