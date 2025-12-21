@@ -17,8 +17,10 @@ const brainProgression = () => {
         const hidenindex = rundomNumbers(length)
         const progression = generateProgression(start,diff,length,hidenindex)
 
+        const question = progression.join(" ")
+
         // сравнивание ответа пользователя и правильного ответа
-        const Ansver = Number(userAnsver(progression))
+        const Ansver = Number(userAnsver(String(question)))
         const correctAnsver = start + (hidenindex * diff)
         let correct = checkAnsver(Ansver, correctAnsver, userName)
 

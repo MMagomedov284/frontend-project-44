@@ -18,8 +18,8 @@ const playCalculatorBrain = () => {
         const operations = ["-", "+", "*"]
 
         //создаем генератор рандомного выражения из масива 
-        const randomIndex = rundomNumbers(operations.length);
-        const randomOperation = operations[randomIndex]
+
+        const randomOperation = operations[rundomNumbers(2,0)]
 
         //спрашиваем у пользователя ответ на операцию
         const expression = `${num1} ${randomOperation} ${num2}`;

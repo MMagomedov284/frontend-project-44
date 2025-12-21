@@ -6,6 +6,12 @@ export default defineConfig([
   { files: ["**/*.{js,mjs,cjs}"], 
     plugins: { js }, 
     extends: ["js/recommended"], 
-    languageOptions: { globals: globals.browser } },
+    rules: {
+      'eqeqeq': 'warn',
+      'curly': 'warn',
+      'no-else-return': 'warn',
+    }
+  },
+  { files: ["**/*.{js,mjs,cjs}"], languageOptions: { globals: globals.browser } },
 ]);
 
