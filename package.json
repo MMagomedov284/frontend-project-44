@@ -8,7 +8,7 @@
     "brain-gcd": "bin/brain-gcd.js",
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
-  },  
+  },
   "description": "[![Actions Status](https://github.com/MMagomedov284/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MMagomedov284/frontend-project-44/actions)",
   "homepage": "https://github.com/MMagomedov284/frontend-project-44#readme",
   "bugs": {
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/MMagomedov284/frontend-project-44.git"
   },
-  "license": "ISC", 
+  "license": "ISC",
   "author": "",
   "type": "module",
   "main": "bin/brain-games.js",
@@ -29,8 +29,9 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "eslint": "^9.39.1",
+    "@eslint/js": "^9.39.2",
+    "@stylistic/eslint-plugin": "^5.6.1",
+    "eslint": "^9.39.2",
     "globals": "^16.5.0"
   }
 }
