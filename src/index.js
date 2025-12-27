@@ -22,6 +22,7 @@ export const playGame = (gameRules, generateRound) => {
   console.log(`Congratulations, ${name}!`)
 }
 
+// nosonar - Math.random is acceptable for educational game
 export const getRandomNumber = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min
 }
