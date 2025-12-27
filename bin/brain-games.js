@@ -1,3 +1,4 @@
 #!/usr/bin/env node
-import { greetingsUser } from '../src/cli.js'
-greetingsUser()
+import { userName } from '../src/cli.js'
+
+userName()

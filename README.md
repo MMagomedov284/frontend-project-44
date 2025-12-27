@@ -6,13 +6,22 @@
 
 Набор из пяти консольных игр для тренировки мозга. Каждая игра задаёт вопросы, на которые нужно дать правильные ответы. После трёх правильных ответов игра считается выигранной. Неправильный ответ завершает игру.
 
-## 🎮 Доступные игры
+## 🎮 Демонстрация игр
 
-1. **brain-even** - Определение чётного числа (https://asciinema.org/a/IPPWUXVU5j1Tu3eFeU8UImCVI)
-2. **brain-calc** - Арифметические выражения (https://asciinema.org/a/CvK9lRJworMtkSmSzgeIRm2yK)
-3. **brain-gcd** - Наибольший общий делитель (https://asciinema.org/a/vefeY3pHrQybranM16dVCkqIf)
-4. **brain-progression** - Арифметическая прогрессия (https://asciinema.org/a/FuhLZLVs9X9hkicF0t030k8JH)
-5. **brain-prime** - Простое число (https://asciinema.org/a/jwnaEqhnItvfDgssRa5R3Jq1U)
+### 1. brain-even - Определение чётного числа
+[![asciicast](https://asciinema.org/a/IPPWUXVU5j1Tu3eFeU8UImCVI.svg)](https://asciinema.org/a/IPPWUXVU5j1Tu3eFeU8UImCVI)
+
+### 2. brain-calc - Арифметические выражения  
+[![asciicast](https://asciinema.org/a/CvK9lRJworMtkSmSzgeIRm2yK.svg)](https://asciinema.org/a/CvK9lRJworMtkSmSzgeIRm2yK)
+
+### 3. brain-gcd - Наибольший общий делитель
+[![asciicast](https://asciinema.org/a/vefeY3pHrQybranM16dVCkqIf.svg)](https://asciinema.org/a/vefeY3pHrQybranM16dVCkqIf)
+
+### 4. brain-progression - Арифметическая прогрессия
+[![asciicast](https://asciinema.org/a/FuhLZLVs9X9hkicF0t030k8JH.svg)](https://asciinema.org/a/FuhLZLVs9X9hkicF0t030k8JH)
+
+### 5. brain-prime - Простое число
+[![asciicast](https://asciinema.org/a/jwnaEqhnItvfDgssRa5R3Jq1U.svg)](https://asciinema.org/a/jwnaEqhnItvfDgssRa5R3Jq1U)
 
 ## 📦 Установка
 

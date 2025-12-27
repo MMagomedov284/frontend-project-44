@@ -1,18 +1,27 @@
-// проверка коректности ответа от пользователя + информивания пользователя если ответ не верный
-const checkAnsver = (answer, correctAnsver, userName) => {
-  if (answer === correctAnsver) {
+import readlineSync from 'readline-sync'
+
+export const playGame = (gameRules, generateRound) => {
+  console.log('Welcome to the Brain Games!')
+  const name = readlineSync.question('May I have your name? ')
+  console.log(`Hello, ${name}!`)
+  console.log(gameRules)
+
+  for (let i = 0; i < 3; i++) {
+    const { question, correctAnswer } = generateRound()
+    console.log(`Question: ${question}`)
+    const answer = readlineSync.question('Your answer: ')
+
+    if (answer !== correctAnswer) {
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
+      console.log(`Let's try again, ${name}!`)
+      return
+    }
     console.log('Correct!')
   }
-  else {
-    console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnsver}'.`)
-    console.log(`Let's try again, ${userName}!`)
-    return false
-  }
+
+  console.log(`Congratulations, ${name}!`)
 }
 
-// генератор случайного числа от 1 и выше
-const rundomNumbers = (maxNum = 100, minNum = 1) => {
-  return Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum
+export const getRandomNumber = (min, max) => {
+  return Math.floor(Math.random() * (max - min + 1)) + min
 }
-
-export { checkAnsver, rundomNumbers }
